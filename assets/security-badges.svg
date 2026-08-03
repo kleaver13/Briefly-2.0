@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 72" role="img" aria-labelledby="t">
+<title id="t">Security and trust badges</title>
+<g font-family="Arial,Helvetica,sans-serif" fill="#5D6679">
+<g transform="translate(0 6)"><rect width="42" height="42" rx="10" fill="#F2F1F7"/><circle cx="21" cy="21" r="12" fill="none" stroke="#9AA3B5" stroke-width="2"/><path d="m15 21 4 4 8-9" fill="none" stroke="#9AA3B5" stroke-width="2.5"/><text x="54" y="17" font-size="12">SOC 2 Type II</text><text x="54" y="34" font-size="12">Compliant</text></g>
+<g transform="translate(195 6)"><rect width="42" height="42" rx="10" fill="#F2F1F7"/><rect x="13" y="19" width="16" height="14" rx="2" fill="none" stroke="#9AA3B5" stroke-width="2"/><path d="M16 19v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#9AA3B5" stroke-width="2"/><text x="54" y="17" font-size="12">End-to-End</text><text x="54" y="34" font-size="12">Encryption</text></g>
+<g transform="translate(390 6)"><rect width="42" height="42" rx="10" fill="#F2F1F7"/><path d="M21 10l10 4v8c0 7-4 11-10 14-6-3-10-7-10-14v-8z" fill="none" stroke="#9AA3B5" stroke-width="2"/><text x="54" y="17" font-size="12">Private by</text><text x="54" y="34" font-size="12">Design</text></g>
+<g transform="translate(565 6)"><rect width="42" height="42" rx="10" fill="#F2F1F7"/><circle cx="17" cy="16" r="4" fill="none" stroke="#9AA3B5" stroke-width="2"/><circle cx="26" cy="16" r="4" fill="none" stroke="#9AA3B5" stroke-width="2"/><path d="M10 32c1-7 4-10 8-10s7 3 8 10M18 32c1-7 4-10 8-10s7 3 8 10" fill="none" stroke="#9AA3B5" stroke-width="2"/><text x="54" y="17" font-size="12">Trusted by Enterprise</text><text x="54" y="34" font-size="12">Teams</text></g>
+</g>
+</svg>
