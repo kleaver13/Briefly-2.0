@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+<title id="t">Briefly mark</title>
+<defs>
+<linearGradient id="a" x1="8" y1="8" x2="55" y2="34" gradientUnits="userSpaceOnUse"><stop stop-color="#A38CFF"/><stop offset="1" stop-color="#6E4AF5"/></linearGradient>
+<linearGradient id="b" x1="8" y1="29" x2="55" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#845FF8"/><stop offset="1" stop-color="#4E2EDA"/></linearGradient>
+</defs>
+<path d="M8 8h23c12 0 21 7 21 17 0 8-5 14-14 17L8 8Z" fill="url(#a)"/>
+<path d="M8 8h20c12 0 21 7 21 17S40 42 28 42H8l13-17L8 8Z" fill="url(#a)"/>
+<path d="M8 30h22c13 0 23 7 23 17S43 64 30 64H8l14-17L8 30Z" fill="url(#b)"/>
+</svg>
