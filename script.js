@@ -1,4 +1,6 @@
-const menu=document.querySelector('.menu'),nav=document.querySelector('.header nav');menu?.addEventListener('click',()=>{const o=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(o))});
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
-const qs=[['Briefly has completely changed how I prepare for meetings. I save hours every week and show up more confident.','Sarah Chen','CFO, Acme Corp'],['Our team finally enters every customer call with the full story, not scattered notes.','Maya Patel','VP Revenue, Northstar'],['Briefly surfaces the decision, context, and people who matter before the meeting starts.','Alex Morgan','COO, Juniper Labs']];let i=0;function render(){quote.textContent=qs[i][0];name.textContent=qs[i][1];role.textContent=qs[i][2]}prev.onclick=()=>{i=(i-1+qs.length)%qs.length;render()};next.onclick=()=>{i=(i+1)%qs.length;render()};
-const modal=document.querySelector('#modal'),form=modal.querySelector('form');document.querySelectorAll('[data-modal]').forEach(b=>b.onclick=()=>{const t=b.dataset.modal;document.querySelector('#modal-label').textContent=t==='demo'?'BOOK A DEMO':t==='login'?'WELCOME BACK':'GET STARTED';document.querySelector('#modal-title').textContent=t==='demo'?'See Briefly in action':t==='login'?'Log in to Briefly':'Start using Briefly';document.querySelector('#modal-copy').textContent=t==='demo'?'Tell us about your team and we’ll schedule a walkthrough.':t==='login'?'The customer portal is coming soon.':'Join the early access list and we’ll be in touch.';form.reset();modal.showModal()});form.onsubmit=e=>{e.preventDefault();form.querySelector('.status').textContent='Thanks — your request has been received.'};
+const menu = document.querySelector('.menu');
+const nav = document.querySelector('.header nav');
+menu?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  menu.setAttribute('aria-expanded', String(open));
+});
